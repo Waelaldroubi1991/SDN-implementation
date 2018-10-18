@@ -1,5 +1,4 @@
 # SDN
-[NWEN302] Implement the SDN through OpenFlow 1.0 within Ryu framework
 
 ## Introduction
 SDN is a new approach to the current world of networking, in this lab you will learn basic concepts of SDN through OpenFlow. OpenFlow started with several engineers from Stanford University creating a protocol that would have a logically centralised control plane separated from the underlying switching details. OpenFlow was architected for a number of devices containing only data planes to respond to commands sent to them from a logically centralised controller that housed the single control plane for that network. The controller is responsible for maintaining all of the network paths, as well as programming each of the network devices it controlled. The commands and responses to those commands are described in the OpenFlow protocol.
